@@ -1,0 +1,20 @@
+#partners{
+    background-color: $bg-color;
+    .partners{
+        @include dflex;
+        flex-direction: column;
+        h1{
+            color: $text-color;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 130%;
+        }
+        div{
+            padding-top: 50px;
+            padding-bottom: 120px;
+            width: 100%;
+            @include dflex;
+        }
+    }
+}

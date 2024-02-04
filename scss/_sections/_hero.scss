@@ -1,0 +1,76 @@
+#hero{
+    padding-top: 300px;
+    background-image: url(../../images/herobg.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .application{
+        margin-top: -100px;
+        // padding-top: 100px;
+        h1{
+            color: $text-color;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+        }
+        .application__para{
+            width: 570px;
+            padding-top: 30px;
+            color: $text-color;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 130%;
+        }
+        &__buttons{
+            padding-top: 40px;
+            display: flex;
+            gap: 20px;
+            &--button{
+            @include button;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 130%;
+            padding:  10px 30px; 
+            }
+        }
+        h6{
+            padding-top: 100px;
+            color: $text-color;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .stats{
+            padding-top: 30px;
+            @include dflex;
+            width: 812px;
+            .stat{
+                display: flex;
+                flex-direction: column;
+                h4{
+                    color: var(--logo-light-green, #04FF14);
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+
+                p{
+                    padding-top: 10px;
+                    color: $text-color;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+        }
+        img{
+            padding-top: 30px;
+            padding-bottom: 322px;
+        }
+    }
+}

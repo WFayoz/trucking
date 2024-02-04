@@ -1,0 +1,37 @@
+#careers{
+    background-color: $bg-color;
+    padding-bottom: 125px;
+    .careers{
+        @include dflex;
+        background: #521F84;
+        &__left{
+            div{
+                padding-left: 120px;
+                @include dflex;
+                flex-direction: column;
+                align-items: start;
+                h1{
+                    color: $text-color;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 180%; /* 43.2px */
+                }
+                p{
+                    padding-top: 20px;
+                    width: 255px;
+                    color: #A466E1;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 180%;
+                }
+                button{
+                    margin-top: 40px;
+                    @include button;
+                    padding: 10px 30px;
+                }
+            }
+        }
+    }
+}

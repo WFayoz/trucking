@@ -1,0 +1,94 @@
+#about{
+    background-color: $bg-color;
+    .about{
+        @include dflex;
+        flex-direction: column;
+        width: 100%;
+        &__top{
+            width: 100%;
+            @include dflex; 
+            &--left{
+                padding-left: 255px;
+                padding-right: 20px;
+                h1{
+                    padding-top: 111px;
+                    color: $text-color;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+                p{
+                    width: 620px;
+                    padding-top: 25px;
+                    color: $text-color;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 130%;
+                }
+                a{
+                    padding-top: 41px;
+                    padding-bottom: 112px;
+                    display: flex;
+                    color: var(--logo-light-green, #04FF14);
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+            &--right{
+                width: 961px;
+                height: 570px;
+                background-image: url(../../images/abdriver.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        &__bottom{
+            width: 100%;
+            @include dflex;
+            &--left{
+                z-index: 9999;
+                width: 959px;
+                height: 570px;
+                background-image: url(../../images/whatbg.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            &--right{
+                padding-right: 255px;
+                padding-left: 20px;
+                h1{
+                    padding-top: 122px;
+                    color: $text-color;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+                p{
+                    width: 570px;
+                    padding-top: 25px;
+                    color: $text-color;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 130%;
+                }
+                a{
+                    padding-top: 41px;
+                    bottom: 124px;
+                    display: flex;
+                    color: var(--logo-light-green, #04FF14);
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+        }
+        
+    }
+}

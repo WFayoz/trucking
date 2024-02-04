@@ -1,0 +1,38 @@
+#services{
+    background-color: $bg-color;
+    .services{
+        padding-top: 120px;
+        padding-bottom: 120px;
+        @include dflex;
+        &__box{
+            background-color: #212529;
+            @include dflex (start);
+            flex-direction: column;
+            padding: 30px;
+            h1{
+                // padding-top: 30px;
+                color: $text-color;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            p{
+                padding-bottom: 30px;
+                padding-top: 30px;
+                width: 390px;
+                color: $text-color;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 130%; 
+            }
+            &:nth-child(2){
+                p{
+                    padding-bottom: 53px;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@mixin dflex ($items:center , $content:space-between) {
+    display: flex;
+    align-items: $items;
+    justify-content: $content;
+}
+@mixin button{
+    color: $text-color;
+    background: transparent;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+    border: 2px solid $text-color;
+    cursor: pointer;
+    &:hover{
+        background: $text-color;
+        color: #000;
+        transition: ease-out 300ms;
+    }
+}

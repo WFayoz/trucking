@@ -1,0 +1,60 @@
+#footer{
+    background-color: $bg-color;
+    .footer{
+        @include dflex;
+        flex-direction: column;
+        width: 100%;
+        &__top{
+            width: 100%;
+            @include dflex;
+            padding:  70px 0px;
+            div{
+                display: flex;
+                flex-direction: column;
+                h1{
+                    color: $text-color;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 130%; /* 31.2px */
+                }
+                .socials{
+                    padding-top: 27px;
+                    @include dflex;
+                    flex-direction: row;
+                    gap: 10px
+                }
+                h6{
+                    color: var(--lightgray, #AFAFAF);
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 130%;
+                }
+                p{
+                    padding-top: 14px;
+                    color: $text-color;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 130%; 
+                }
+
+            }
+
+        }
+        &__bottom{
+            @include dflex;
+            width: 100%;
+            padding: 35px 0;
+            &--left{
+                color: var(--lightgray, #AFAFAF);
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+
+    }
+}

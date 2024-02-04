@@ -1,0 +1,57 @@
+#why{
+    background-color: $bg-color;
+    .why{
+        @include dflex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 115px 0px;
+        div{
+            h1{
+                color: $text-color;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            p{
+                padding-top: 20px;
+                color: $text-color;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                padding-bottom: 20px;
+            }
+        }
+        .why__ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 125px;
+            ul{
+                @include dflex;
+                flex-direction: column;
+                align-items: start;
+                li{
+                    align-items: center;
+                    display: flex;
+                    gap: 10px;
+                    div{
+                        width: 5px;
+                        height: 5px;
+                        background: var(--logo-light-green, #04FF14);
+                    }
+                    span{
+                        color: $text-color;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 180%; /* 28.8px */
+                    }
+
+                }
+            }
+        }
+    }
+}
