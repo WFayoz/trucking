@@ -38,3 +38,45 @@
         }
     }
 }
+@media (max-width:650px){
+    #mission{
+        background-image: url(../../images/mission.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        .mission{
+            padding: 104px 0px;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            div{
+                @include dflex;
+                flex-direction: column;
+                align-items: start;
+                h1{
+                    color: $text-color;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+                p{
+                    padding-top: 20px;
+                    width: 100%;
+                    color: $text-color;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 130%; 
+                }
+                h6{
+                    padding-top: 15px;
+                    color: $text-color;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 130%; 
+                }
+            }
+        }
+    } 
+}

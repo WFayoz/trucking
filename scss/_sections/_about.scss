@@ -50,7 +50,6 @@
             width: 100%;
             @include dflex;
             &--left{
-                z-index: 9999;
                 width: 959px;
                 height: 570px;
                 background-image: url(../../images/whatbg.png);
@@ -91,4 +90,599 @@
         }
         
     }
+}
+@media (max-width:1700px){
+    #about{
+        background-color: $bg-color;
+        .about{
+            @include dflex;
+            flex-direction: column;
+            width: 100%;
+            &__top{
+                width: 100%;
+                @include dflex; 
+                &--left{
+                    padding-left: 255px;
+                    padding-right: 20px;
+                    h1{
+                        padding-top: 111px;
+                        color: $text-color;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    p{
+                        width: 500px;
+                        padding-top: 25px;
+                        color: $text-color;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 130%;
+                    }
+                    a{
+                        padding-top: 41px;
+                        margin-bottom: 170px;
+                        display: flex;
+                        color: var(--logo-light-green, #04FF14);
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+                &--right{
+                    width: 961px;
+                    height: 570px;
+                    background-image: url(../../images/abdriver.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    margin-bottom: 150px;
+                }
+            }
+            &__bottom{
+                width: 100%;
+                @include dflex;
+                margin-top: -300px;
+                &--left{
+                    width: 959px;
+                    height: 570px;
+                    background-image: url(../../images/whatbg.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+                &--right{
+                    padding-right: 255px;
+                    padding-left: 20px;
+                    h1{
+                        padding-top: 122px;
+                        color: $text-color;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    p{
+                        width: 500px;
+                        padding-top: 25px;
+                        color: $text-color;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 130%;
+                    }
+                    a{
+                        padding-top: 41px;
+                        padding-bottom: 200px;
+                        display: flex;
+                        color: var(--logo-light-green, #04FF14);
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+            }
+            
+        }
+    } 
+}
+@media (max-width:1630px){
+    #about{
+        background-color: $bg-color;
+        .about{
+            @include dflex;
+            flex-direction: column;
+            width: 100%;
+            &__top{
+                width: 100%;
+                @include dflex; 
+                &--left{
+                    padding-left: 50px;
+                    padding-right: 20px;
+                    h1{
+                        padding-top: 111px;
+                        color: $text-color;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    p{
+                        width: 500px;
+                        padding-top: 25px;
+                        color: $text-color;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 130%;
+                    }
+                    a{
+                        padding-top: 41px;
+                        margin-bottom: 170px;
+                        display: flex;
+                        color: var(--logo-light-green, #04FF14);
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+                &--right{
+                    width: 961px;
+                    height: 570px;
+                    background-image: url(../../images/abdriver.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    margin-bottom: 150px;
+                }
+            }
+            &__bottom{
+                width: 100%;
+                @include dflex;
+                margin-top: -250px;
+                &--left{
+                    width: 959px;
+                    height: 570px;
+                    background-image: url(../../images/whatbg.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+                &--right{
+                    padding-right: 100px;
+                    padding-left: 20px;
+                    h1{
+                        padding-top: 122px;
+                        color: $text-color;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    p{
+                        width: 500px;
+                        padding-top: 25px;
+                        color: $text-color;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 130%;
+                    }
+                    a{
+                        padding-top: 41px;
+                        padding-bottom: 200px;
+                        display: flex;
+                        color: var(--logo-light-green, #04FF14);
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+            }
+            
+        }
+    } 
+}
+@media (max-width:1500px){
+    #about{
+        background-color: $bg-color;
+        .about{
+            @include dflex;
+            flex-direction: column;
+            width: 100%;
+            &__top{
+                width: 100%;
+                @include dflex;
+                margin-top: -100px; 
+                &--left{
+                    padding-left: 50px;
+                    padding-right: 20px;
+                    h1{
+                        padding-top: 150px;
+                        color: $text-color;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    p{
+                        width: 500px;
+                        padding-top: 25px;
+                        color: $text-color;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 130%;
+                    }
+                    a{
+                        padding-top: 41px;
+                        margin-bottom: 170px;
+                        display: flex;
+                        color: var(--logo-light-green, #04FF14);
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+                &--right{
+                    width: 750px;
+                    height: 410px;
+                    background-image: url(../../images/abdriver.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    margin-bottom: 150px;
+                }
+            }
+            &__bottom{
+                width: 100%;
+                @include dflex;
+                margin-top: -350px;
+                &--left{
+                    width: 750px;
+                    height: 450px;
+                    background-image: url(../../images/whatbg.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+                &--right{
+                    padding-right: 100px;
+                    padding-left: 20px;
+                    h1{
+                        padding-top: 122px;
+                        color: $text-color;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    p{
+                        width: 500px;
+                        padding-top: 25px;
+                        color: $text-color;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 130%;
+                    }
+                    a{
+                        padding-top: 41px;
+                        padding-bottom: 150px;
+                        display: flex;
+                        color: var(--logo-light-green, #04FF14);
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+            }
+            
+        }
+    } 
+}
+@media (max-width:1100px){
+    #about{
+        background-color: $bg-color;
+        .about{
+            @include dflex;
+            flex-direction: column;
+            width: 100%;
+            &__top{
+                width: 100%;
+                @include dflex;
+                flex-wrap: wrap-reverse;
+                &--left{
+                    padding-right: 20px;
+                    h1{
+                        // padding-top: 150px;
+                        color: $text-color;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    p{
+                        width: 900px;
+                        padding-top: 25px;
+                        color: $text-color;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 130%;
+                    }
+                    a{
+                        padding-top: 41px;
+                        margin-bottom: 170px;
+                        display: flex;
+                        color: var(--logo-light-green, #04FF14);
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+                &--right{
+                    width: 1100px;
+                    height: 410px;
+                    background-image: url(../../images/abdriver.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    margin-bottom: -100px;
+                }
+            }
+            &__bottom{
+                width: 100%;
+                @include dflex;
+                margin-top: -250px;
+                flex-wrap: wrap;
+                &--left{
+                    width: 1100px;
+                    height: 570px;
+                    background-image: url(../../images/whatbg.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+                &--right{
+                    padding-left: 20px;
+                    h1{
+                        padding-top: 60px;
+                        color: $text-color;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    p{
+
+                        width: 900px;
+                        padding-top: 25px;
+                        color: $text-color;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 130%;
+                    }
+                    a{
+                        padding-top: 40px;
+                        padding-bottom: 40px;
+                        display: flex;
+                        color: var(--logo-light-green, #04FF14);
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+            }
+            
+        }
+    } 
+}
+@media (max-width:1000px){
+    #about{
+        background-color: $bg-color;
+        .about{
+            @include dflex;
+            flex-direction: column;
+            width: 100%;
+            &__top{
+                width: 100%;
+                @include dflex;
+                flex-wrap: wrap-reverse;
+                &--left{
+                    padding-right: 20px;
+                    h1{
+                        // padding-top: 150px;
+                        color: $text-color;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    p{
+                        width: 100%;
+                        padding-top: 25px;
+                        color: $text-color;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 130%;
+                    }
+                    a{
+                        padding-top: 41px;
+                        margin-bottom: 170px;
+                        display: flex;
+                        color: var(--logo-light-green, #04FF14);
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+                &--right{
+                    width: 100%;
+                    padding-top: 450px;
+                    background-image: url(../../images/abdriver.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    margin-bottom: -100px;
+                }
+            }
+            &__bottom{
+                width: 100%;
+                @include dflex;
+                margin-top: -250px;
+                flex-wrap: wrap;
+                &--left{
+                    width: 100%;
+                    background-image: url(../../images/whatbg.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+                &--right{
+                    padding-left: 20px;
+                    h1{
+                        padding-top: 60px;
+                        color: $text-color;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    p{
+                        width: 100%;
+                        padding-top: 25px;
+                        color: $text-color;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 130%;
+                    }
+                    a{
+                        padding-top: 40px;
+                        padding-bottom: 40px;
+                        display: flex;
+                        color: var(--logo-light-green, #04FF14);
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+            }
+            
+        }
+    } 
+}
+@media (max-width:700px){
+    #about{
+        background-color: $bg-color;
+        .about{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            &__top{
+                width: 100%;
+                @include dflex;
+                flex-wrap: wrap-reverse;
+                &--left{
+                    margin-top: -250px;
+                    padding: 0px 20px;
+                    h1{
+                        text-align: center;
+                        color: $text-color;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    p{
+                        padding-top: 20px;
+                        text-align: center;
+                        width: 100%;
+                        color: $text-color;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 130%;
+                    }
+                    a{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 170px;
+                        display: flex;
+                        color: var(--logo-light-green, #04FF14);
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+                &--right{
+                    width: 100%;
+                    padding-top: 450px;
+                    background-image: url(../../images/abdriver.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    margin-bottom: -100px;
+                }
+            }
+            &__bottom{
+                width: 100%;
+                @include dflex;
+                flex-wrap: wrap;
+                &--left{
+                    width: 100%;
+                    background-image: url(../../images/whatbg.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+                &--right{
+                    position: relative;
+                    margin-top: -380px;
+                    padding: 0px 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    h1{
+                        text-align: center;
+                        // padding-top: 60px;
+                        color: $text-color;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    p{
+                        text-align: center;
+                        width: 100%;
+                        // padding-top: 25px;
+                        color: $text-color;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 130%;
+                    }
+                    a{
+                        padding-top: 40px;
+                        padding-bottom: 40px;
+                        display: flex;
+                        color: var(--logo-light-green, #04FF14);
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                }
+            }
+            
+        }
+    } 
 }

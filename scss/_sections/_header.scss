@@ -46,6 +46,9 @@ header{
                     }
                 }
             }
+            .navigation__hm{
+                display: none;
+            }
             .nav__button{
                 @include button;
                 color: $text-color;
@@ -56,6 +59,228 @@ header{
                 font-weight: 500;
                 line-height: normal;
                 border: 2px solid #6A369C;
+            }
+        }
+    }
+}
+
+@media (max-width:1490px){
+    
+    header{
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+        .navigation{
+            background-color: rgba(0, 0, 0, 0.40);
+            @include dflex;
+            &__left{
+                @include dflex;
+                .logo{
+                    padding-left: 30px;
+                }
+                .socials{
+                    padding-left: 50px;
+                    @include dflex;
+                    gap: 10px
+                }
+                .number{
+                    padding-left: 50px;
+                    @include dflex;
+                    p{
+                        padding-left: 10px;
+                        color: $text-color;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 130%;
+                    }
+                }
+            }
+            &__right{
+                @include dflex;
+                ul{
+                    display: none;
+                    @include dflex;
+                    gap: 40px;
+                    padding-right: 50px;
+                    li{
+                        display: none;
+                        a{
+                            color: $text-color;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+                    }
+                }
+                .navigation__hm{
+                    padding-right: 30px;
+                    display: block;
+                }
+                .nav__button{
+                    @include button;
+                    color: $text-color;
+                    padding: 30px 25px;
+                    background-color:  #6A369C;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    border: 2px solid #6A369C;
+                }
+            }
+        }
+    }
+}
+@media (max-width:1150px){
+
+    header{
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+        .navigation{
+            background-color: rgba(0, 0, 0, 0.40);
+            @include dflex;
+            &__left{
+                @include dflex;
+                .logo{
+                    padding-left: 30px;
+                }
+                .socials{
+                    padding-left: 50px;
+                    @include dflex;
+                    gap: 10px;
+                    display: none;
+                }
+                .number{
+                    padding-left: 50px;
+                    @include dflex;
+                    display: none;
+                    p{
+
+                        padding-left: 10px;
+                        color: $text-color;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 130%;
+                    }
+                }
+            }
+            &__right{
+                @include dflex;
+                ul{
+                    display: none;
+                    @include dflex;
+                    gap: 40px;
+                    padding-right: 50px;
+                    li{
+                        display: none;
+                        a{
+                            color: $text-color;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+                    }
+                }
+                .navigation__hm{
+                    padding-right: 30px;
+                    display: block;
+                }
+                .nav__button{
+                    @include button;
+                    color: $text-color;
+                    padding: 30px 25px;
+                    background-color:  #6A369C;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    border: 2px solid #6A369C;
+                }
+            }
+        }
+    }
+}
+@media (max-width:523px){
+
+    header{
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+        .navigation{
+            padding: 10px 0px;
+            background-color: rgba(0, 0, 0, 0.40);
+            @include dflex;
+            &__left{
+                @include dflex;
+                .logo{
+                    padding-left: 30px;
+                }
+                .socials{
+                    padding-left: 50px;
+                    @include dflex;
+                    gap: 10px;
+                    display: none;
+                }
+                .number{
+                    padding-left: 50px;
+                    @include dflex;
+                    display: none;
+                    p{
+                        
+                        padding-left: 10px;
+                        color: $text-color;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 130%;
+                    }
+                }
+            }
+            &__right{
+                @include dflex;
+                ul{
+                    display: none;
+                    @include dflex;
+                    gap: 40px;
+                    padding-right: 50px;
+                    li{
+                        display: none;
+                        a{
+                            color: $text-color;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+                    }
+                }
+                .navigation__hm{
+                    padding-right: 30px;
+                    display: block;
+                }
+                .nav__button{
+                    @include button;
+                    color: $text-color;
+                    padding: 30px 25px;
+                    background-color:  #6A369C;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    border: 2px solid #6A369C;
+                    display: none;
+                }
             }
         }
     }

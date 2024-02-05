@@ -35,3 +35,142 @@
         }
     }
 }
+@media (max-width:1260px){
+    #careers{
+        background-color: $bg-color;
+        padding-bottom: 125px;
+        .careers{
+            @include dflex;
+            background: #521F84;
+            &__left{
+                div{
+                    padding-left: 95px;
+                    @include dflex;
+                    flex-direction: column;
+                    align-items: start;
+                    h1{
+                        color: $text-color;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 180%; /* 43.2px */
+                    }
+                    p{
+                        padding-top: 20px;
+                        width: 255px;
+                        color: #A466E1;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 180%;
+                    }
+                    button{
+                        margin-top: 35px;
+                        @include button;
+                        padding: 10px 30px;
+                    }
+                }
+            }
+            &__right{
+                width: 700px;
+                height: 100%;
+            }
+        }
+    }
+}
+@media (max-width:1124px){
+    #careers{
+        background-color: $bg-color;
+        padding-bottom: 125px;
+        .careers{
+            @include dflex;
+            background: #521F84;
+            &__left{
+                div{
+                    padding-left: 95px;
+                    @include dflex;
+                    flex-direction: column;
+                    align-items: start;
+                    h1{
+                        color: $text-color;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 180%; /* 43.2px */
+                    }
+                    p{
+                        padding-top: 20px;
+                        width: 255px;
+                        color: #A466E1;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 180%;
+                    }
+                    button{
+                        margin-top: 35px;
+                        @include button;
+                        padding: 10px 30px;
+                    }
+                }
+            }
+            &__right{
+                width: 610px;
+                height: 100%;
+            }
+        }
+    }
+}
+@media (max-width:1037px){
+    #careers{
+        background-color: $bg-color;
+        padding-bottom: 40px;
+        .careers{
+            @include dflex;
+            flex-direction: column-reverse;
+            background: #521F84;
+            flex-wrap: wrap-reverse;
+            &__left{
+                width: 100%;
+                div{
+
+                    margin-left: -75px;
+                    @include dflex;
+                    flex-direction: column;
+                    align-items: start;
+                    h1{
+                        padding-top: 20px;
+                        color: $text-color;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 180%; /* 43.2px */
+                    }
+                    p{
+                        padding-top: 20px;
+                        width: 255px;
+                        color: #A466E1;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 180%;
+                    }
+                    button{
+                        margin-top: 35px;
+                        @include button;
+                        padding: 10px 30px;
+                        margin-bottom: 70px;
+                    }
+                }
+            }
+            &__right{
+                width: 100%;
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
