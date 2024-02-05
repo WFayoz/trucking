@@ -1498,15 +1498,21 @@ header .navigation__right .nav__button:hover {
 }
 @media (max-width: 1100px) {
   #services {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #272B30;
   }
   #services .services {
+    margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 40px;
   }
