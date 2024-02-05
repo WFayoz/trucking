@@ -1326,7 +1326,7 @@ header .navigation__right .nav__button:hover {
     flex-wrap: wrap-reverse;
   }
   #about .about__top--left {
-    margin-top: -250px;
+    margin-top: -230px;
     padding: 0px 20px;
   }
   #about .about__top--left h1 {
@@ -1382,7 +1382,7 @@ header .navigation__right .nav__button:hover {
   }
   #about .about__bottom--right {
     position: relative;
-    margin-top: -380px;
+    margin-top: -360px;
     padding: 0px 20px;
     display: flex;
     flex-direction: column;

@@ -591,7 +591,7 @@
                 @include dflex;
                 flex-wrap: wrap-reverse;
                 &--left{
-                    margin-top: -250px;
+                    margin-top: -230px;
                     padding: 0px 20px;
                     h1{
                         text-align: center;
@@ -645,7 +645,7 @@
                 }
                 &--right{
                     position: relative;
-                    margin-top: -380px;
+                    margin-top: -360px;
                     padding: 0px 20px;
                     display: flex;
                     flex-direction: column;
