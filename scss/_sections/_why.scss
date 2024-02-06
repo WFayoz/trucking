@@ -59,6 +59,7 @@
     #why{
         background-color: $bg-color;
         .why{
+            align-items: start;
             @include dflex;
             justify-content: space-evenly;
             flex-wrap: wrap;
