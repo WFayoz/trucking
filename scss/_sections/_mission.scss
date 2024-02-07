@@ -40,11 +40,12 @@
 }
 @media (max-width:650px){
     #mission{
-        background-image: url(../../images/mission.png);
+        background-image: url(../../images/missionres.png);
         background-size: cover;
         background-repeat: no-repeat;
         .mission{
-            padding: 104px 0px;
+            padding: 208px 0px;
+            padding-bottom: 61px;
             display: flex;
             align-items: center;
             justify-content: start;
@@ -52,7 +53,9 @@
                 @include dflex;
                 flex-direction: column;
                 align-items: start;
+                text-align: center;
                 h1{
+                    width: 100%;
                     color: $text-color;
                     font-size: 20px;
                     font-style: normal;
@@ -69,7 +72,8 @@
                     line-height: 130%; 
                 }
                 h6{
-                    padding-top: 15px;
+                    width: 100%;
+                    padding-top: 42px;
                     color: $text-color;
                     font-size: 20px;
                     font-style: normal;
