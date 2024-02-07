@@ -594,7 +594,7 @@
                     margin-top: -60px;
                     padding: 0px 20px;
                     h1{
-                        text-align: center;
+                        text-align: start;
                         color: $text-color;
                         font-size: 24px;
                         font-style: normal;
@@ -603,7 +603,7 @@
                     }
                     p{
                         padding-top: 20px;
-                        text-align: center;
+                        text-align: start;
                         width: 100%;
                         color: $text-color;
                         font-size: 18px;
@@ -651,8 +651,10 @@
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
+                    text-align: start;
                     h1{
-                        text-align: center;
+                        text-align: start;
+                        width: 100%;
                         // padding-top: 60px;
                         color: $text-color;
                         font-size: 24px;
@@ -661,9 +663,8 @@
                         line-height: normal;
                     }
                     p{
-                        text-align: center;
+                        text-align: start;
                         width: 100%;
-                        // padding-top: 25px;
                         color: $text-color;
                         font-size: 18px;
                         font-style: normal;
@@ -702,8 +703,9 @@
                 &--left{
                     margin-top: -100px;
                     padding: 0px 20px;
+                    text-align: start;
                     h1{
-                        text-align: center;
+                        // text-align: center;
                         color: $text-color;
                         font-size: 24px;
                         font-style: normal;
@@ -712,7 +714,7 @@
                     }
                     p{
                         padding-top: 20px;
-                        text-align: center;
+                        // text-align: center;
                         width: 100%;
                         color: $text-color;
                         font-size: 18px;
@@ -760,8 +762,9 @@
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
+                    text-align: start;
                     h1{
-                        text-align: center;
+                        width: 100%;
                         // padding-top: 60px;
                         color: $text-color;
                         font-size: 24px;
@@ -770,7 +773,6 @@
                         line-height: normal;
                     }
                     p{
-                        text-align: center;
                         width: 100%;
                         // padding-top: 25px;
                         color: $text-color;
@@ -811,8 +813,9 @@
                 &--left{
                     margin-top: -200px;
                     padding: 0px 20px;
+                    text-align: start;
                     h1{
-                        text-align: center;
+                        // text-align: center;
                         color: $text-color;
                         font-size: 24px;
                         font-style: normal;
@@ -821,7 +824,7 @@
                     }
                     p{
                         padding-top: 20px;
-                        text-align: center;
+                        // text-align: center;
                         width: 100%;
                         color: $text-color;
                         font-size: 18px;
@@ -869,8 +872,9 @@
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
+                    text-align: start;
                     h1{
-                        text-align: center;
+                        // text-align: center;
                         // padding-top: 60px;
                         color: $text-color;
                         font-size: 24px;
@@ -879,7 +883,7 @@
                         line-height: normal;
                     }
                     p{
-                        text-align: center;
+                        // text-align: center;
                         width: 100%;
                         // padding-top: 25px;
                         color: $text-color;
@@ -920,8 +924,9 @@
                 &--left{
                     margin-top: -220px;
                     padding: 0px 20px;
+                    text-align: start;
                     h1{
-                        text-align: center;
+                        // text-align: center;
                         color: $text-color;
                         font-size: 24px;
                         font-style: normal;
@@ -930,7 +935,7 @@
                     }
                     p{
                         padding-top: 20px;
-                        text-align: center;
+                        // text-align: center;
                         width: 100%;
                         color: $text-color;
                         font-size: 18px;
@@ -978,8 +983,9 @@
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
+                    text-align: start;
                     h1{
-                        text-align: center;
+                        // text-align: center;
                         // padding-top: 60px;
                         color: $text-color;
                         font-size: 24px;
@@ -988,7 +994,7 @@
                         line-height: normal;
                     }
                     p{
-                        text-align: center;
+                        // text-align: center;
                         width: 100%;
                         // padding-top: 25px;
                         color: $text-color;
