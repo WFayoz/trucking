@@ -1,3 +1,11 @@
-.map{
-    overflow: hidden;
+
+.bg__map{
+    
+    background-color: $bg-color;
+    .map{
+        width: 100%;
+        overflow: hidden;
+    }
 }
+
+
