@@ -21,6 +21,9 @@ header{
                 padding-left: 50px;
                 @include dflex;
                 p{
+                    a{
+                        color: $text-color;
+                    }
                     padding-left: 10px;
                     color: $text-color;
                     font-size: 18px;

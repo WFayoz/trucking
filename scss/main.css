@@ -86,6 +86,9 @@ header .navigation__left .number p {
   font-weight: 500;
   line-height: 130%;
 }
+header .navigation__left .number p a {
+  color: #F3F3F3;
+}
 header .navigation__right {
   display: flex;
   align-items: center;
@@ -2477,6 +2480,9 @@ header .navigation__right .nav__button:hover {
   font-weight: 500;
   line-height: 130%;
 }
+#footer .footer__top div p a {
+  color: #F3F3F3;
+}
 #footer .footer__bottom {
   display: flex;
   align-items: center;
@@ -2487,11 +2493,13 @@ header .navigation__right .nav__button:hover {
   flex-wrap: wrap;
 }
 #footer .footer__bottom--left {
-  color: var(--lightgray, #AFAFAF);
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+#footer .footer__bottom--left a {
+  color: var(--lightgray, #AFAFAF);
 }
 
 @media (max-width: 700px) {

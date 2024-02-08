@@ -34,6 +34,9 @@
                     line-height: 130%;
                 }
                 p{
+                    a{
+                        color: $text-color;
+                    }
                     padding-top: 14px;
                     color: $text-color;
                     font-size: 18px;
@@ -52,7 +55,10 @@
             gap: 20px;      
             flex-wrap: wrap;
             &--left{
-                color: var(--lightgray, #AFAFAF);
+                a{
+
+                    color: var(--lightgray, #AFAFAF);
+                }
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 500;
